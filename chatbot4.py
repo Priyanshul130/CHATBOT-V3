@@ -1,3 +1,6 @@
+#DEVELOPED BY <PRIYANSHUL SHARMA>
+#Webpage Priyanshul.is-a.dev
+
 from tkinter import *
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
@@ -11,7 +14,7 @@ bubbles = [] #empty list to store all instances of chat bubble (message)
 #creating canvas for adding controls
 canvas = Canvas(window, width=350, height=500,bg="sky blue")
 canvas.grid(row=0,column=0,columnspan=3)
-#--------------------------------------------------------------------------------------
+
 #create bot with logic adapter
 bot=ChatBot("bot",logicAdp=["chatterbot.logic.BestMatch"])
 #first lest train our bot with some data
