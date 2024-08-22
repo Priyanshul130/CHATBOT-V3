@@ -103,4 +103,3 @@ entry = Entry(window,width=50)
 entry.grid(row=1,column=0,columnspan=2)
 Button(window,text="Send",width=5,command=send).grid(row=1,column=2)
 window.mainloop()
-
