@@ -1,10 +1,11 @@
 #DEVELOPED BY <PRIYANSHUL SHARMA>
 #Webpage Priyanshul.is-a.dev
-
+#Contact piyanshul1307@gmail.com
 from tkinter import *
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import random
+
 
 
 window= Tk()
@@ -15,7 +16,7 @@ bubbles = [] #empty list to store all instances of chat bubble (message)
 canvas = Canvas(window, width=350, height=500,bg="sky blue")
 canvas.grid(row=0,column=0,columnspan=3)
 
-#create bot with logic adapter
+
 bot=ChatBot("bot",logicAdp=["chatterbot.logic.BestMatch"])
 #first lest train our bot with some data
 trainer=ListTrainer(bot)
@@ -102,3 +103,4 @@ entry = Entry(window,width=50)
 entry.grid(row=1,column=0,columnspan=2)
 Button(window,text="Send",width=5,command=send).grid(row=1,column=2)
 window.mainloop()
+
