@@ -29,10 +29,6 @@ for file in files:
 
     trainer.train(conversation)
     
-    
-    
-
-    
 #-------------------------------------------------------------------------------------
 #creating chatbubble
 class chatBubble:
